@@ -1,0 +1,11 @@
+body {
+    background-color: bisque;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJcgdaUCortlmgMaUcE4R674lJ1w9qEMIMQ&usqp=CAU);
+}
+
+h1 {
+    color: beige;
+    text-align: center;
+    background-origin: padding-box;
+    background-position: center;
+  }
