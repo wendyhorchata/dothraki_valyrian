@@ -1,5 +1,18 @@
+
+
+
+const $input = $("input")
+const $button = $("button")
+const $aside = $("aside") 
+button.on("click", () => {
+     const searchTerm = $input.val()
 $.ajax({
-    url:`curl -X GET "http://api.funtranslations.com/translate/dothraki?text=home%20" -H  "accept: application/js" -H  "content-type: application/json"`
+    url:`https://api.funtranslations.com/translate/dothraki.json?text=${searchTerm}`
 }) .then((data) => {
     console.log(data)
-})
+}
+
+
+// use interperlation 
+
+// next step start planning html 

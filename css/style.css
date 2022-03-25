@@ -1,11 +1,22 @@
 body {
-    background-color: bisque;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJcgdaUCortlmgMaUcE4R674lJ1w9qEMIMQ&usqp=CAU);
+  
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJcgdaUCortlmgMaUcE4R674lJ1w9qEMIMQ&usqp=CAU);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
 
+
+
 h1 {
-    color: beige;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     background-origin: padding-box;
     background-position: center;
   }
+
+ .main {
+     box-sizing: border-box;
+     margin-left: 15vwgit;
+ }
