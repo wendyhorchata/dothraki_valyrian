@@ -1,22 +1,32 @@
 body {
-  
-background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJcgdaUCortlmgMaUcE4R674lJ1w9qEMIMQ&usqp=CAU);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+    background-color: gray;
 }
 
+    body> img{
+        width: 400px;
+        height: 400px;
+        display: block  
+    }
 
 
 h1 {
     color: gold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:trajan pro;
     text-align: center;
     background-origin: padding-box;
     background-position: center;
   }
 
- .main {
-     box-sizing: border-box;
-     margin-left: 15vwgit;
- }
+
+#searchBar {
+    text-align: center;
+    padding:  10px;
+    border: 1px solid gold;
+    border-radius: 3px;
+    width: 20%;
+    height: 16px;
+    font-size: 15px;
+    
+}
+
+
