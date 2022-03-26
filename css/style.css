@@ -1,14 +1,3 @@
-body {
-    background-color: gray;
-}
-
-    body> img{
-        width: 400px;
-        height: 400px;
-        display: block  
-    }
-
-
 h1 {
     color: gold;
     font-family:trajan pro;
@@ -18,15 +7,30 @@ h1 {
   }
 
 
-#searchBar {
-    text-align: center;
-    padding:  10px;
-    border: 1px solid gold;
-    border-radius: 3px;
-    width: 20%;
-    height: 16px;
-    font-size: 15px;
+body {
+    background-color: gray;
     
 }
+
+ img{
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+        
+    }
+header {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
 
 

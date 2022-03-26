@@ -10,12 +10,12 @@
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
   <script defer src="./js/script.js"></script>
-  <title>Welcome to Dothraki Translate</title>
-</head>
-<body>  
+  <title>Dothraki Translate</title>
+
   <header>
     <h1>Translate Words From English to Dothraki </h1>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSJ5t8gyjY25oaeJvA0CRoNLRHsySxBZUVw&usqp=CAU" alt= "Khai Drojo"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSJ5t8gyjY25oaeJvA0CRoNLRHsySxBZUVw&usqp=CAU"/>
+    
     
         <br>
         <br>
@@ -24,16 +24,21 @@
         <br>
         <br>
         <br>
-    <div id="Dothraki">
-        <input 
-        type="text"
-        name="searchBar" 
-        id="searchBar"
-        placeholder=""/>
-        <center></center>
-        <br>
-        <button>Translate</button>
-        <div class="translate-container"></div>
+
+</head>
+<body> 
+    <div class="Translate App">
+        <input id="input" type="text">
+    <button id="translate">Translate</button>
+    </div> 
+   
+    <script>
+        const input = document.querySelector("#input")
+        const application_data = {
+            inputVal: ""
+        }
+    </script>
+  <header>
 
   </header>
 </body>
