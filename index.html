@@ -10,36 +10,41 @@
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
   <script defer src="./js/script.js"></script>
-  <title>Dothraki Translate</title>
+  <title>Translate Words From English to Dothraki</title>
+  </head>
+  <body>
+          <script 
+          type="text/javascript"
+          src="https://code.responsivevoice.org/responsivevoice.js?key=27APMOOQ"></script>
+      </script>
+  <nav>
+      <div style="padding: 1rem; font-size: 2rem; font-weight: bold;">
+        Translate Words From English to Dothraki
+    </div>
+  </nav>
 
-  <header>
-    <h1>Translate Words From English to Dothraki </h1>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSJ5t8gyjY25oaeJvA0CRoNLRHsySxBZUVw&usqp=CAU"/>
-    
-    
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+  <main>
+    <div style="float: left;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSJ5t8gyjY25oaeJvA0CRoNLRHsySxBZUVw&usqp=CAU" alt="Khal&Daenerys" class="got-image"/>
+      </div>
 
-</head>
-<body> 
-    <div class="Translate App">
-        <input id="input" type="text">
-    <button id="translate">Translate</button>
-    </div> 
-   
-    <script>
-        const input = document.querySelector("#input")
-        const application_data = {
-            inputVal: ""
-        }
-    </script>
-  <header>
+      <textarea
+      id="translation-input"
+      placeholder="Put your message here which you want to convert"
+    ></textarea>
+    <button id="translation-button" name="button">
+        Translate 
+      </button>
 
-  </header>
-</body>
+      <div class="paragraph">
+        Translation will come here 
+      </div>
+
+      <div id="translation-output"></div>
+      <button id="translation-button-speak" name="button">
+        Listen To Dothraki
+      </button>
+  </main>
+ 
+  </body>
 </html>
