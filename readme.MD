@@ -1,7 +1,7 @@
 
 # Translate Words from English to Dothraki
 
-## A simple web application that translate English words in to Dothraki. This is possible due to an API created by fun translations
+## A simple web application that translate English words in to Dothraki. This is possible due to an API created by Fun Translations.
 
 
 # Technologies Used
@@ -13,6 +13,7 @@
  ## . Fun Translation API 
  ## . Fan Art I Found On Google 
  ## . inVisionapp To Make My Wire Frame 
+ ## . responsivevoice.org
 
 
 # Screenshot of Wire Frame 
@@ -22,9 +23,6 @@
 # Screenshot of Website
 
 ![Website Screenshot](./Images/Dothraki-Translate-Website-View.png)
-
-
-
 
 # Getting Started
 ## Below is a link to the published website. 

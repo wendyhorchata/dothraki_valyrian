@@ -25,7 +25,7 @@ function clickHandler() {
   fetch(getTranslationalURL(inputText))
     .then((response) => response.json())
     .then((json) => {
-      var translatedText = json.contents.translated;
+      const translatedText = json.contents.translated;
       outputText.innerText = translatedText;
     })
     .catch(errorHandler);
