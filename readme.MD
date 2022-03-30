@@ -16,11 +16,11 @@
 
 
 # Screenshot of Wire Frame 
-![WireFrame](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) 
+
 ![WireFrame](./Images/DothrakiTranslateWireFrame.png)
 
 # Screenshot of Website
-[Website Screenshot](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) 
+
 ![Website Screenshot](./Images/Dothraki-Translate-Website-View.png)
 
 
