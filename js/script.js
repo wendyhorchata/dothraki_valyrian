@@ -21,7 +21,7 @@ function textSpeak(text) {
 }
 
 function clickHandler() {
-  var inputText = translationText.value;
+  const inputText = translationText.value;
   fetch(getTranslationalURL(inputText))
     .then((response) => response.json())
     .then((json) => {
