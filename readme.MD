@@ -26,4 +26,4 @@
 
 # Getting Started
 ## Below is a link to the published website. 
-## https://wendyhorchata.github.io/dothraki_valyrian/
+## https://wendyhorchata.io/dothraki_valyrian/
