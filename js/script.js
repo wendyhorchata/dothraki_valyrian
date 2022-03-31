@@ -17,7 +17,7 @@ function errorHandler(err) {
 }
 
 function textSpeak(text) {
-  responsiveVoice.speak(text, "English Female");
+  responsiveVoice.speak(text, "Italian Female");
 }
 
 function clickHandler() {
